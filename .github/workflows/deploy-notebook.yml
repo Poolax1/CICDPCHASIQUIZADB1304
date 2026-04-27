@@ -148,7 +148,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                     "container": "raw",
-                    "catalogo": "catalogo_au",
+                    "catalogo": "catalog_au",
                     "esquema": "bronze",
                     "storageName": "adlspchasiquiza01"
                     }
@@ -170,7 +170,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                     "container": "raw",
-                    "catalogo": "catalogo_au",
+                    "catalogo": "catalog_au",
                     "esquema": "bronze",
                     "storageName": "adlspchasiquiza01"
                     }
@@ -192,7 +192,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                     "container": "raw",
-                    "catalogo": "catalogo_au",
+                    "catalogo": "catalog_au",
                     "esquema": "bronze",
                     "storageName": "adlspchasiquiza01"
                     }
@@ -213,7 +213,7 @@ jobs:
                 "notebook_path": "/pchasiquizaProject/scripts/main/3.Transform",
                 "source": "WORKSPACE",
                 "base_parameters": {
-                    "catalogo": "catalogo_au",
+                    "catalogo": "catalog_au",
                     "esquema_sink": "silver",
                     "esquema_source": "bronze"
                     }
@@ -240,7 +240,7 @@ jobs:
                 "notebook_path": "/pchasiquizaProject/scripts/main/4.Load",
                 "source": "WORKSPACE",
                 "base_parameters": {
-                    "catalogo": "catalogo_au",
+                    "catalogo": "catalog_au",
                     "esquema_sink": "golden",
                     "esquema_source": "silver"
                     }
